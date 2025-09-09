@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Hestia Control Panel upgrade script for target version 1.6.7
+# LinkData Panel upgrade script for target version 1.6.7
 
 #######################################################################################
 #######                      Place additional commands below.                   #######

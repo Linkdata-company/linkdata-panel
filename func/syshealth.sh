@@ -2,7 +2,7 @@
 
 #===========================================================================#
 #                                                                           #
-# Hestia Control Panel - System Health Check and Repair Function Library    #
+# LinkData Panel - System Health Check and Repair Function Library    #
 #                                                                           #
 #===========================================================================#
 
@@ -493,8 +493,8 @@ function syshealth_repair_system_config() {
 		$BIN/v-change-sys-config-value "DISABLE_IP_CHECK" "no"
 	fi
 	if [[ -z $(check_key_exists 'APP_NAME') ]]; then
-		echo "[ ! ] Adding missing variable to hestia.conf: APP_NAME ('Hestia Control Panel')"
-		$BIN/v-change-sys-config-value "APP_NAME" "Hestia Control Panel"
+		echo "[ ! ] Adding missing variable to hestia.conf: APP_NAME ('LinkData Panel')"
+		$BIN/v-change-sys-config-value "APP_NAME" "LinkData Panel"
 	fi
 	if [[ -z $(check_key_exists 'FROM_NAME') ]]; then
 		# Default is always APP_NAME

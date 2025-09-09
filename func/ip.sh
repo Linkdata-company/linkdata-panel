@@ -2,7 +2,7 @@
 
 #===========================================================================#
 #                                                                           #
-# Hestia Control Panel - IP/Network Function Library                        #
+# LinkData Panel - IP/Network Function Library                        #
 #                                                                           #
 #===========================================================================#
 

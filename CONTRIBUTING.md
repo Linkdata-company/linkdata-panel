@@ -1,4 +1,4 @@
-# Hestia Control Panel - Contribution Guidelines
+# LinkData Panel - Contribution Guidelines
 
 ## Ways to contribute
 
@@ -10,13 +10,13 @@
 - **New features**:
   - Is there an awesome feature that you'd love to see included? Submit a pull request with your changes, and if approved your PR will be reviewed and merged for inclusion in an upcoming release. While our development team tries to accommodate all reasonable requests please remember that it does take time to develop, implement and test new features and as such we may not be able to fulfill all requests or may have to put a feature on backlog for a later date.
 - **Translations**:
-  - If you are a non-English speaker and would like to improve the quality of the translations used in Hestia Control Panel's web interface, please go to [Hestia Translate](https://translate.hestiacp.com/projects/hestiacp/) to review the translations database. For more information please read [How to contribute with Translations](https://forum.hestiacp.com/t/how-to-contribute-with-translations/1664) on our forum. You can also open an issue report [GitHub](https://www.github.com/hestiacp/hestiacp/issues) highlighting the issue with the current translation so that it can be corrected.
+  - If you are a non-English speaker and would like to improve the quality of the translations used in LinkData Panel's web interface, please go to [Hestia Translate](https://translate.hestiacp.com/projects/hestiacp/) to review the translations database. For more information please read [How to contribute with Translations](https://forum.hestiacp.com/t/how-to-contribute-with-translations/1664) on our forum. You can also open an issue report [GitHub](https://www.github.com/hestiacp/hestiacp/issues) highlighting the issue with the current translation so that it can be corrected.
 - **Donations**:
-  - If you're not a developer but you still want to make a contribution to support Hestia Control Panel and our developers, you can make a donation to the Hestia Control Panel project to further its development (or if you'd just like to buy our developers a lunch, we'd appreciate that too). We currently accept donations through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ST87LQH2CHGLA).
+  - If you're not a developer but you still want to make a contribution to support LinkData Panel and our developers, you can make a donation to the LinkData Panel project to further its development (or if you'd just like to buy our developers a lunch, we'd appreciate that too). We currently accept donations through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ST87LQH2CHGLA).
 
 ## Development Guidelines
 
-Additional information on how to contribute to Hestia Control Panel can be found in the [Development](docs/docs/contributing/development.md) documentation.
+Additional information on how to contribute to LinkData Panel can be found in the [Development](docs/docs/contributing/development.md) documentation.
 
 ### Code formatting and comments
 
@@ -64,13 +64,13 @@ To aid other developers and keep the project's commit history clean, please **sq
 - Our internal development team will review your work and validate your request.
 - Your changes will be tested to ensure that there are no issues.
 - If changes need to be made, you will be notified via GitHub.
-- Once approved, your code will be merged for inclusion in an upcoming release of Hestia Control Panel.
+- Once approved, your code will be merged for inclusion in an upcoming release of LinkData Panel.
 
 All pull requests must include a brief but descriptive title, and a detailed description of the changes that you've made. **Only include commits that are related to your feature, bug fix, or patch in your pull request!**
 
 ## Thank you
 
-We appreciate **all** contributions no matter what size; your feedback and input directly shapes the future of Hestia Control Panel and we could not do it without your support.
+We appreciate **all** contributions no matter what size; your feedback and input directly shapes the future of LinkData Panel and we could not do it without your support.
 
 Thank you for your time and we look forward to seeing your pull requests,<br>
-The Hestia Control Panel development team
+The LinkData Panel development team

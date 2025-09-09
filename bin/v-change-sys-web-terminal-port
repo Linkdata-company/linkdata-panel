@@ -83,7 +83,7 @@ fi
 #----------------------------------------------------------#
 
 # Logging
-$BIN/v-log-action "system" "Warning" "System" "Hestia Control Panel web terminal port changed (New Value: $PORT, Old Value: $ORIGINAL_PORT)."
+$BIN/v-log-action "system" "Warning" "System" "LinkData Panel web terminal port changed (New Value: $PORT, Old Value: $ORIGINAL_PORT)."
 log_event "$OK" "$ARGUMENTS"
 
 exit

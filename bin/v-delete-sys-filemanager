@@ -1,5 +1,5 @@
 #!/bin/bash
-# info: remove file manager functionality from Hestia Control Panel
+# info: remove file manager functionality from LinkData Panel
 # options: [MODE]
 #
 # example: v-delete-sys-filemanager

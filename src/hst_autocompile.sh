@@ -103,7 +103,7 @@ usage() {
 	echo "following the branch name."
 	echo ""
 	echo "Example: bash hst_autocompile.sh --hestia develop Y"
-	echo "This would install a Hestia Control Panel package compiled with the"
+	echo "This would install a LinkData Panel package compiled with the"
 	echo "develop branch code."
 }
 
@@ -640,7 +640,7 @@ if [ "$HESTIA_B" = true ]; then
 		arch="amd64 arm64"
 	fi
 	for BUILD_ARCH in $arch; do
-		echo "Building Hestia Control Panel package..."
+		echo "Building LinkData Panel package..."
 
 		BUILD_DIR_HESTIA=$BUILD_DIR/hestia_$HESTIA_V
 

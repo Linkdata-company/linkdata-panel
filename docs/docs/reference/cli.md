@@ -746,7 +746,7 @@ options: [MODE]
 
 [Source](https://github.com/hestiacp/hestiacp/blob/release/bin/v-add-sys-filemanager)
 
-add file manager functionality to Hestia Control Panel
+add file manager functionality to LinkData Panel
 
 **Options**: `[MODE]`
 
@@ -1965,7 +1965,7 @@ update web templates
 **Options**: `[RESTART]`
 
 This function for changing the release branch for the
-Hestia Control Panel. This allows the user to switch between
+LinkData Panel. This allows the user to switch between
 stable and pre-release builds which will automaticlly update
 based on the appropriate release schedule if auto-update is
 turned on.
@@ -3357,7 +3357,7 @@ This function disables cgroups
 
 [Source](https://github.com/hestiacp/hestiacp/blob/release/bin/v-delete-sys-filemanager)
 
-remove file manager functionality from Hestia Control Panel
+remove file manager functionality from LinkData Panel
 
 **Options**: `[MODE]`
 
@@ -5654,8 +5654,8 @@ v-quick-install-app install admin domain.com WordPress email="info@hestiacp" pas
  example: v-quick-install-app options admin domain.com WordPress
 ```
 
-- The v-quick-install-app install command is used to automate the installation of web applications on a server managed by Hestia Control Panel.
-- The v-quick-install-app app command is used to retrieve a list of web applications that can be quickly installed through the v-quick-install-app install command in the Hestia Control Panel. This command provides a convenient overview of supported applications and their versions, allowing users to choose which application they would like to deploy on their server. The names of the applications are case sensitive.
+- The v-quick-install-app install command is used to automate the installation of web applications on a server managed by LinkData Panel.
+- The v-quick-install-app app command is used to retrieve a list of web applications that can be quickly installed through the v-quick-install-app install command in the LinkData Panel. This command provides a convenient overview of supported applications and their versions, allowing users to choose which application they would like to deploy on their server. The names of the applications are case sensitive.
 - v-quick-install-app options admin domain.com WordPress list all the options available for the specified web application. This command provides a list of all the required and optional fields that need to be filled in when installing the application. The command also provides the default values for each field, if available.
 
 ## v-rebuild-all
@@ -6355,7 +6355,7 @@ search for available commands
 v-search-command web
 ```
 
-This function searches for available Hestia Control Panel commands
+This function searches for available LinkData Panel commands
 and returns results based on the specified criteria.
 Originally developed for VestaCP by Federico Krum
 <https://github.com/FastDigitalOceanDroplets/VestaCP/blob/master/files/v-search-command>
@@ -7124,7 +7124,7 @@ update host certificate for hestia
 v-update-host-certificate admin example.com
 ```
 
-This function updates the SSL certificate used for Hestia Control Panel.
+This function updates the SSL certificate used for LinkData Panel.
 
 ## v-update-letsencrypt-ssl
 

@@ -20,7 +20,7 @@ source_conf "$HESTIA/conf/hestia.conf"
 ###############################################################
 #             Set new version numbers for packages            #
 ###############################################################
-# Hestia Control Panel
+# LinkData Panel
 new_version=$(dpkg -l | awk '$2=="hestia" { print $3 }')
 
 ###############################################################

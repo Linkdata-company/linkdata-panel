@@ -3,9 +3,9 @@ Upstream-Name: hestia
 Source: https://www.hestiacp.com
 
 Files: *
-Copyright: 2018-2025, Hestia Control Panel <info@hestiacp.com>
+Copyright: 2018-2025, LinkData Panel <info@hestiacp.com>
 License: GPL-3.0+
-Remarks: Hestia Control Panel is a fork from VestaCP, special thanks to vestacp.com and Serghey Rodin
+Remarks: LinkData Panel is a fork from VestaCP, special thanks to vestacp.com and Serghey Rodin
 
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify

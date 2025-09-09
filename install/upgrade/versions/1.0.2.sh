@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Hestia Control Panel upgrade script for target version 1.0.2
+# LinkData Panel upgrade script for target version 1.0.2
 
 #######################################################################################
 #######                      Place additional commands below.                   #######
@@ -49,11 +49,11 @@ fi
 
 # Remove old hestia.conf files from Apache & NGINX if they exist
 if [ -f "/etc/apache2/conf.d/hestia.conf" ]; then
-	echo "[ * ] Removing old Apache configuration file from previous version of Hestia Control Panel..."
+	echo "[ * ] Removing old Apache configuration file from previous version of LinkData Panel..."
 	rm -f /etc/apache2/conf.d/hestia.conf
 fi
 if [ -f "/etc/nginx/conf.d/hestia.conf" ]; then
-	echo "[ * ] Removing old NGINX configuration file from previous version of Hestia Control Panel..."
+	echo "[ * ] Removing old NGINX configuration file from previous version of LinkData Panel..."
 	rm -f /etc/nginx/conf.d/hestia.conf
 fi
 

@@ -3,7 +3,7 @@ use function Hestiacp\quoteshellarg\quoteshellarg;
 $dist_config = require __DIR__ . "/configuration_sample.php";
 session_start();
 $dist_config["public_path"] = "/fm/";
-$dist_config["frontend_config"]["app_name"] = "File Manager - Hestia Control Panel";
+$dist_config["frontend_config"]["app_name"] = "File Manager - LinkData Panel";
 $dist_config["frontend_config"]["logo"] = "../images/logo.svg";
 $dist_config["frontend_config"]["editable"] = [
 	".txt",

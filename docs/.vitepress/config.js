@@ -3,8 +3,8 @@ import { version } from '../../package.json';
 
 export default defineConfig({
 	lang: 'en-US',
-	title: 'Hestia Control Panel',
-	description: 'Open-source web server control panel.',
+	title: 'LinkData Panel',
+	description: 'Link Data web server control panel.',
 
 	lastUpdated: true,
 	cleanUrls: false,
@@ -39,7 +39,7 @@ export default defineConfig({
 
 		footer: {
 			message: 'Released under the GPLv3 License.',
-			copyright: 'Copyright © 2019-present Hestia Control Panel',
+			copyright: 'Copyright © 2019-present LinkData Panel',
 		},
 
 		algolia: {
