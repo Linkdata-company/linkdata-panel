@@ -1,7 +1,7 @@
 #=========================================================================#
 # Default Web Domain Template                                             #
 # DO NOT MODIFY THIS FILE! CHANGES WILL BE LOST WHEN REBUILDING DOMAINS   #
-# https://hestiacp.com/docs/server-administration/web-templates.html      #
+# https://linkdata.com/docs/server-administration/web-templates.html      #
 #=========================================================================#
 
 server {
@@ -40,7 +40,7 @@ server {
 		set $skip_cache 1;
 		set $cache_uri null;
 		set $no_cache 1;
-	}  
+	}
 
 	# Don't use the cache for logged in users or if products in cart
 	if ($http_cookie ~* "nocache|user|cart") {

@@ -1,7 +1,7 @@
 #=========================================================================#
 # Default Web Domain Template                                             #
 # DO NOT MODIFY THIS FILE! CHANGES WILL BE LOST WHEN REBUILDING DOMAINS   #
-# https://hestiacp.com/docs/server-administration/web-templates.html      #
+# https://linkdata.com/docs/server-administration/web-templates.html      #
 #=========================================================================#
 
 server {
@@ -107,7 +107,7 @@ server {
         include /etc/nginx/fastcgi_params;
         fastcgi_pass %backend_lsnr%;
         fastcgi_param SCRIPT_FILENAME   $document_root$fastcgi_script_name;
-        fastcgi_param PATH_INFO         $fastcgi_path_info;        
+        fastcgi_param PATH_INFO         $fastcgi_path_info;
         fastcgi_param SCRIPT_NAME       /wa-data/public/photos/thumb.php;
         fastcgi_param SCRIPT_FILENAME   $document_root/wa-data/public/photos/thumb.php;
     }
@@ -137,7 +137,7 @@ server {
         include /etc/nginx/fastcgi_params;
         fastcgi_pass %backend_lsnr%;
         fastcgi_param SCRIPT_FILENAME   $document_root$fastcgi_script_name;
-        fastcgi_param PATH_INFO         $fastcgi_path_info;        
+        fastcgi_param PATH_INFO         $fastcgi_path_info;
         fastcgi_param SCRIPT_NAME       /wa-data/public/shop/promos/thumb.php;
         fastcgi_param SCRIPT_FILENAME   $document_root/wa-data/public/shop/promos/thumb.php;
     }
@@ -152,7 +152,7 @@ server {
         include /etc/nginx/fastcgi_params;
         fastcgi_pass %backend_lsnr%;
         fastcgi_param SCRIPT_FILENAME   $document_root$fastcgi_script_name;
-        fastcgi_param PATH_INFO         $fastcgi_path_info;        
+        fastcgi_param PATH_INFO         $fastcgi_path_info;
         fastcgi_param SCRIPT_NAME       /wa-data/public/mailer/files/file.php;
         fastcgi_param SCRIPT_FILENAME   $document_root/wa-data/public/mailer/files/file.php;
     }
@@ -169,7 +169,7 @@ server {
         include /etc/nginx/fastcgi_params;
         fastcgi_pass %backend_lsnr%;
         fastcgi_param SCRIPT_FILENAME   $document_root$fastcgi_script_name;
-        fastcgi_param PATH_INFO         $fastcgi_path_info;        
+        fastcgi_param PATH_INFO         $fastcgi_path_info;
         fastcgi_param SCRIPT_NAME       /wa-data/public/tasks/tasks/thumb.php;
         fastcgi_param SCRIPT_FILENAME   $document_root/wa-data/public/tasks/tasks/thumb.php;
     }

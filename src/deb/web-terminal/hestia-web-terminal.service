@@ -1,6 +1,6 @@
 [Unit]
 Description=HestiaCP Web Terminal
-Documentation=https://hestiacp.com/docs/
+Documentation=https://linkdata.com/docs/
 After=network.target
 
 [Service]
