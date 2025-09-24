@@ -1,4 +1,3 @@
-# ![LinkData Logo](https://www.linkdata.com/images/logo.webp =50x50) LinkData Panel
 
 **Lightweight and powerful control panel for the modern web**
 
@@ -12,9 +11,8 @@
 
 ---
 
-## 📷 Screenshot
 
-![LinkData Panel Web Interface](https://www.linkdata.com/images/logo.webp)
+![LinkData Panel Web Interface](https://linkdata.com/images/hb.png)
 
 ---
 
@@ -58,7 +56,9 @@ All from one central dashboard — without manually configuring individual compo
 ## ⚠️ Notes
 
 - LinkData Panel does **not** support 32-bit operating systems.  
-- Running on OpenVZ 7 or lower may cause DNS/firewall issues. For VPS we recommend **KVM** or **LXC**.
+- Running on OpenVZ 7 or lower may cause DNS/firewall issues. For VPS we recommend **KVM** or **LXC**.  
+- For installing a fresh template, purchase a VPS at [LinkData Shared Servers](https://www.linkdata.com/shared-servers).  
+- Contact us for any information regarding fresh installation at [LinkData Contact](https://www.linkdata.com/contact-us).
 
 ---
 
@@ -69,5 +69,4 @@ All from one central dashboard — without manually configuring individual compo
 **Step 1: Log in**
 ```bash
 ssh root@your.server
-
 
